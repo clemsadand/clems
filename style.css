@@ -1,0 +1,64 @@
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+    font-weight: 700;
+  }
+
+#header .logo {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    width:20%;
+  }
+  #header .logo a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #header .logo img {
+    max-height: 40px;
+  }
+  
+  #header.header-scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 12px 0;
+  }
+
+
+
+.herosec{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: rgb(34, 30, 30);
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.herosec p{
+    padding-top: 120px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+
+/*
+News
+*/
+.infos{
+    color: rgb(78, 78, 78);
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.project{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
